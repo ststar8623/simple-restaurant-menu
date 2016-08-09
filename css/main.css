@@ -72,6 +72,7 @@ body {
     position: absolute;
     margin-left: 70%;
     max-width: 15%;
+    opacity: 0.5;
 }
 /* animation for jumping sushi */
 @-webkit-keyframes bouncing {
@@ -146,7 +147,11 @@ td {
     color: #E4EBED;
 }
 
-th:hover, td:hover {
+th:hover {
+    background-color: #343536;
+}
+
+td:hover {
     background-color: #000;
 }
 

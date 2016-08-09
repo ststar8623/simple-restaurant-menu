@@ -838,6 +838,15 @@ $(function() {
 	}, 11000);
 });
 
+$(document).ready(function(){
+	$('#cutesushigroup').mouseenter(function(){
+		$('#cutesushigroup').fadeTo('slow', 1);
+	});
+	$('#cutesushigroup').mouseleave(function(){
+		$('#cutesushigroup').fadeTo('slow', 0.5);
+	});
+});
+
 
 
 
