@@ -249,8 +249,8 @@ hr {
   animation-duration: 8s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .colorful1, .colorful-2, .colorful-11 {
@@ -260,8 +260,8 @@ hr {
   animation-duration: 8s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .colorful2, .colorful-3, .colorful-12 {
@@ -271,8 +271,8 @@ hr {
   animation-duration: 8s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .colorful3, .colorful-4, .colorful-13 {
@@ -282,8 +282,8 @@ hr {
   animation-duration: 8s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .colorful4, .colorful-5, .colorful-14 {
@@ -293,8 +293,8 @@ hr {
   animation-duration: 8s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .colorful5, .colorful-6 {
@@ -304,8 +304,8 @@ hr {
   animation-duration: 8s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .colorful6, .colorful-7 {
@@ -315,8 +315,8 @@ hr {
   animation-duration: 8s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .colorful7, .colorful-8 {
@@ -326,8 +326,8 @@ hr {
   animation-duration: 8s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .colorful8, .colorful-9 {
@@ -337,13 +337,13 @@ hr {
   animation-duration: 8s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 /* animation delay */
 .bounceInLeft, .bounceInRight, .flipInX, .flipInY{
-    animation-delay: 11.2s;
+    animation-delay: 10.2s;
 }
 
 @media (max-width: 435px){

@@ -707,46 +707,46 @@ $(function() {
 	}, 1000);
 	setTimeout(function() {
 		$('li.colorful1').removeClass('hidden');
-	}, 1200);
+	}, 1100);
 	setTimeout(function() {
 		$('li.colorful2').removeClass('hidden');
-	}, 1400);
+	}, 1200);
 	setTimeout(function() {
 		$('li.colorful3').removeClass('hidden');
-	}, 1600);
+	}, 1300);
 	setTimeout(function() {
 		$('li.colorful4').removeClass('hidden');
-	}, 1800);
+	}, 1400);
 	setTimeout(function() {
 		$('li.colorful5').removeClass('hidden');
-	}, 2000);
+	}, 1500);
 	setTimeout(function() {
 		$('li.colorful6').removeClass('hidden');
-	}, 2200);
+	}, 1600);
 	setTimeout(function() {
 		$('li.colorful6').addClass('hidden');
 	}, 3200);
 	setTimeout(function() {
 		$('li.colorful5').addClass('hidden');
-	}, 3400);
+	}, 3300);
 	setTimeout(function() {
 		$('li.colorful4').addClass('hidden');
-	}, 3600);
+	}, 3400);
 	setTimeout(function() {
 		$('li.colorful3').addClass('hidden');
-	}, 3800);
+	}, 3500);
 	setTimeout(function() {
 		$('li.colorful2').addClass('hidden');
-	}, 4000);
+	}, 3600);
 	setTimeout(function() {
 		$('li.colorful1').addClass('hidden');
-	}, 4200);
+	}, 3700);
 	setTimeout(function() {
 		$('li.colorful').addClass('hidden');
-	}, 4400);
+	}, 3800);
 	setTimeout(function() {
 		$('.fly-in-text').remove();
-	}, 4600);
+	}, 4000);
 
 
 	setTimeout(function() {
@@ -754,88 +754,88 @@ $(function() {
 	}, 4600);
 	setTimeout(function() {
 		$('li.colorful-2').removeClass('hidden');
-	}, 4800);
+	}, 4700);
 	setTimeout(function() {
 		$('li.colorful-3').removeClass('hidden');
-	}, 5000);
+	}, 4800);
 	setTimeout(function() {
 		$('li.colorful-4').removeClass('hidden');
-	}, 5200);
+	}, 4900);
 	setTimeout(function() {
 		$('li.colorful-5').removeClass('hidden');
-	}, 5400);
+	}, 5000);
 	setTimeout(function() {
 		$('li.colorful-6').removeClass('hidden');
-	}, 5600);
+	}, 5100);
 	setTimeout(function() {
 		$('li.colorful-7').removeClass('hidden');
-	}, 5800);
+	}, 5200);
 	setTimeout(function() {
 		$('li.colorful-8').removeClass('hidden');
-	}, 6000);
+	}, 5300);
 	setTimeout(function() {
 		$('li.colorful-9').removeClass('hidden');
-	}, 6200);
+	}, 5400);
 	setTimeout(function() {
 		$('li.colorful-10').removeClass('hidden');
-	}, 6400);
+	}, 5500);
 	setTimeout(function() {
 		$('li.colorful-11').removeClass('hidden');
-	}, 6600);
+	}, 5600);
 	setTimeout(function() {
 		$('li.colorful-12').removeClass('hidden');
-	}, 6800);
+	}, 5700);
 	setTimeout(function() {
 		$('li.colorful-13').removeClass('hidden');
-	}, 7000);
+	}, 5800);
 	setTimeout(function() {
 		$('li.colorful-14').removeClass('hidden');
-	}, 7200);
+	}, 5900);
 	setTimeout(function() {
 		$('li.colorful-14').addClass('hidden');
 	}, 8000);
 	setTimeout(function() {
 		$('li.colorful-13').addClass('hidden');
-	}, 8200);
+	}, 8100);
 	setTimeout(function() {
 		$('li.colorful-12').addClass('hidden');
-	}, 8400);
+	}, 8200);
 	setTimeout(function() {
 		$('li.colorful-11').addClass('hidden');
-	}, 8600);
+	}, 8300);
 	setTimeout(function() {
 		$('li.colorful-10').addClass('hidden');
-	}, 8800);
+	}, 8400);
 	setTimeout(function() {
 		$('li.colorful-9').addClass('hidden');
-	}, 9000);
+	}, 8500);
 	setTimeout(function() {
 		$('li.colorful-8').addClass('hidden');
-	}, 9200);
+	}, 8600);
 	setTimeout(function() {
 		$('li.colorful-7').addClass('hidden');
-	}, 9400);
+	}, 8700);
 	setTimeout(function() {
 		$('li.colorful-6').addClass('hidden');
-	}, 9600);
+	}, 8800);
 	setTimeout(function() {
 		$('li.colorful-5').addClass('hidden');
-	}, 9800);
+	}, 8900);
 	setTimeout(function() {
 		$('li.colorful-4').addClass('hidden');
-	}, 10000);
+	}, 9000);
 	setTimeout(function() {
 		$('li.colorful-3').addClass('hidden');
-	}, 10200);
+	}, 9100);
 	setTimeout(function() {
 		$('li.colorful-2').addClass('hidden');
-	}, 10400);
+	}, 9200);
 	setTimeout(function() {
 		$('li.colorful-1').addClass('hidden');
-	}, 10600);
+	}, 9300);
 	setTimeout(function() {
 		$('.fly-in-text2').remove();
-	}, 11000);
+	}, 10000);
 });
 
 $(document).ready(function(){
@@ -846,7 +846,6 @@ $(document).ready(function(){
 		$('#cutesushigroup').fadeTo('slow', 0.5);
 	});
 });
-
 
 
 
