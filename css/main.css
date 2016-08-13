@@ -9,8 +9,10 @@ body {
 }
 
 .nav a {
-    color: #fff;
-    font-size: 18px;
+    font-size: 14px;
+    text-align: center;
+    font-family: Verdana, Arial, Sans-Serif;
+    color: #FFFFFF;
 }
 
 /* welcoming page*/
@@ -343,9 +345,10 @@ hr {
 
 /* animation delay */
 .bounceInLeft, .bounceInRight, .flipInX, .flipInY{
-    animation-delay: 10.2s;
+    animation-delay: 10s;
 }
 
+/* media queries */
 @media (max-width: 435px){
     .jumbotron p {
         font-size: 12px;

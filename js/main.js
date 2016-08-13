@@ -496,52 +496,68 @@ var moriawase = [
 ]
 
 // add menu table
-	var sushi = document.getElementById('sushiSashimi');
-	var classic = document.getElementById('classicRolls');
-	var special = document.getElementById('specialRolls');
-	var soupSaladList = document.getElementById('soupSalad');
-	var oysterCrudoList = document.getElementById('oysterCrudo');
-	var starterGrilledList = document.getElementById('starterGrilled');
-	var moriawaseList = document.getElementById('moriawase');
+var sushi, classic, special, soupSaladList, oysterCrudoList, starterGrilledList, moriawaseList;
+	
+	sushi = document.getElementById('sushiSashimi');
+	classic = document.getElementById('classicRolls');
+	special = document.getElementById('specialRolls');
+	soupSaladList = document.getElementById('soupSalad');
+	oysterCrudoList = document.getElementById('oysterCrudo');
+	starterGrilledList = document.getElementById('starterGrilled');
+	moriawaseList = document.getElementById('moriawase');
 
-	var table = document.createElement('table');
-		table.className = 'table table-condensed table-hover'
-	var table2 = document.createElement('table');
-		table2.className = 'table table-condensed table-hover'
-	var table3 = document.createElement('table');
-		table3.className = 'table table-condensed table-hover'
-	var table4 = document.createElement('table');
-		table4.className = 'table table-condensed table-hover'
-	var table5 = document.createElement('table');
-		table5.className = 'table table-condensed table-hover'
-	var table6 = document.createElement('table');
-		table6.className = 'table table-condensed table-hover'
-	var table7 = document.createElement('table');
-		table7.className = 'table table-condensed table-hover' 
+var table, table2, table3, table4, table5, table6, table7;
 
-	var tBody = document.createElement('tbody');
-	var tBody2 = document.createElement('tbody');
-	var tBody3 = document.createElement('tbody');
-	var tBody4 = document.createElement('tbody');
-	var tBody5 = document.createElement('tbody');
-	var tBody6 = document.createElement('tbody');
-	var tBody7 = document.createElement('tbody');
+	table = document.createElement('table');
+	table.className = 'table table-condensed table-hover'
 
-	var row = document.createElement('tr');
-	var row2 = document.createElement('tr');
-	var row3 = document.createElement('tr');
-	var row4 = document.createElement('tr');
-	var row5 = document.createElement('tr');
-	var row6 = document.createElement('tr');
-	var row7 = document.createElement('tr');
+	table2 = document.createElement('table');
+	table2.className = 'table table-condensed table-hover'
+	
+	table3 = document.createElement('table');
+	table3.className = 'table table-condensed table-hover'
+	
+	table4 = document.createElement('table');
+	table4.className = 'table table-condensed table-hover'
+	
+	table5 = document.createElement('table');
+	table5.className = 'table table-condensed table-hover'
+	
+	table6 = document.createElement('table');
+	table6.className = 'table table-condensed table-hover'
+	
+	table7 = document.createElement('table');
+	table7.className = 'table table-condensed table-hover' 
 
-	var cellHead = document.createElement('th');
-	var cellHead2 = document.createElement('th');
-	var cellHead3 = document.createElement('th');
-	var cellHead4 = document.createElement('th');
-	var cellHead5 = document.createElement('th');
-	var cellHead6 = document.createElement('th');
-	var cellHead7 = document.createElement('th');
+var tBody, tBody2, tBody3, tBody4, tBody5, tBody6, tBody7;
+
+	tBody = document.createElement('tbody');
+	tBody2 = document.createElement('tbody');
+	tBody3 = document.createElement('tbody');
+	tBody4 = document.createElement('tbody');
+	tBody5 = document.createElement('tbody');
+	tBody6 = document.createElement('tbody');
+	tBody7 = document.createElement('tbody');
+
+var row, row2, row3, row4, row5, row6, row7;
+
+	row = document.createElement('tr');
+	row2 = document.createElement('tr');
+	row3 = document.createElement('tr');
+	row4 = document.createElement('tr');
+	row5 = document.createElement('tr');
+	row6 = document.createElement('tr');
+	row7 = document.createElement('tr');
+
+var cellHead, cellHead2, cellHead3, cellHead4, cellHead5, cellHead6, cellHead7;
+
+	cellHead = document.createElement('th');
+	cellHead2 = document.createElement('th');
+	cellHead3 = document.createElement('th');
+	cellHead4 = document.createElement('th');
+	cellHead5 = document.createElement('th');
+	cellHead6 = document.createElement('th');
+	cellHead7 = document.createElement('th');
 
 	cellHead.textContent = 'A La Carte' + ' ' + '[ ' + 'Nigiri 1PC / Sashimi 3PCs' + ' ]';
 	cellHead2.textContent = 'Classic Rolls / Hand Rolls';
@@ -835,7 +851,7 @@ $(function() {
 	}, 9300);
 	setTimeout(function() {
 		$('.fly-in-text2').remove();
-	}, 10000);
+	}, 9900);
 });
 
 $(document).ready(function(){
@@ -846,6 +862,13 @@ $(document).ready(function(){
 		$('#cutesushigroup').fadeTo('slow', 0.5);
 	});
 });
+
+
+
+
+
+
+
 
 
 
